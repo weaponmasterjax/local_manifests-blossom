@@ -5,7 +5,9 @@
   <project path="device/xiaomi/blossom" name="dandelion64-Archives/android_device_xiaomi_blossom" remote="private" revision="lineage-20" />
 
   <!-- Kernel Trees -->
-  <project path="device/xiaomi/blossom-kernel" name="dandelion64-Archives/device_xiaomi_blossom-kernel" remote="private" revision="lineage-20" />
+  <project path="device/xiaomi/blossom-kernel" name="dandelion64-Archives/device_xiaomi_blossom-kernel" remote="private" revision="lineage-20">
+    <linkfile src="headers" dest="kernel/xiaomi/blossom" />
+  </project>
 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi/blossom" name="dandelion64-Archives/proprietary_vendor_xiaomi_blossom" remote="private" revision="lineage-20" />
