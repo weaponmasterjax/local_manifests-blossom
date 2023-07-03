@@ -4,6 +4,9 @@
   <!-- Device Trees -->
   <project path="device/xiaomi/blossom" name="dandelion64-Archives/android_device_xiaomi_blossom" remote="private" revision="lineage-20" />
 
+  <!-- SELinux Policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-20" />
+
   <!-- Kernel Trees -->
   <project path="device/xiaomi/blossom-kernel" name="dandelion64-Archives/device_xiaomi_blossom-kernel" remote="private" revision="lineage-20">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
