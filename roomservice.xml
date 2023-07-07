@@ -7,6 +7,9 @@
   <!-- SELinux Policies -->
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-20" />
 
+  <!-- Hardware Supports -->
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-20" />
+
   <!-- Kernel Trees -->
   <project path="device/xiaomi/blossom-kernel" name="dandelion64-Archives/device_xiaomi_blossom-kernel" remote="private" revision="lineage-20">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
