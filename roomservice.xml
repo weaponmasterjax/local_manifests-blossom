@@ -16,6 +16,6 @@
   </project>
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/blossom" name="dandelion64-Archives/proprietary_vendor_xiaomi_blossom" remote="github" revision="lineage-20" />
+  <project path="vendor/xiaomi/blossom" name="snnbyyds/proprietary_vendor_xiaomi_blossom" remote="github" revision="lineage-20" />
 
 </manifest>
