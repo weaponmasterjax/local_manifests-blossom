@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="snnbyyds/android_device_xiaomi_blossom" remote="github" revision="lineage-20" />
+  <project path="device/xiaomi/blossom" name="snnbyyds/device_xiaomi_blossom" remote="github" revision="lineage-20" />
 
   <!-- SELinux Policies -->
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" revision="lineage-20" />
